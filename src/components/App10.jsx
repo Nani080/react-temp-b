@@ -62,9 +62,19 @@ export default function App10() {
     const handleRunScore = (runs) => {
         setScore(score + runs);
         setMsg('Well Done!');
+        // if (score === 50) {
+        //     setMsg('Half Century!');
+        // }
+        // if (score === 100) {
+        //     setMsg('Century!');
+        // }
+        // else{
+        //     setMsg('Well Done!');
+        // }
         setTimeout(() => {
             setMsg('');
         }, 1000);
+        
     }
 
     const handleWicket = () => {
@@ -79,7 +89,7 @@ export default function App10() {
     }
 
     return (
-        <div>
+        <div className='App-Body'>
             <div className='App-Container'>
                 <h2>Cricket Game</h2>
             </div>
