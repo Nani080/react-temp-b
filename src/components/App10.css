@@ -1,0 +1,33 @@
+.App-Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: silver;
+}
+
+.App-Row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.App-Box{
+    /*width: 200px;
+    *//*height: 200px;
+    */display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.App-Msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: red;
+    margin: 10px;
+}
