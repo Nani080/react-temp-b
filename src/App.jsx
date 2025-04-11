@@ -12,6 +12,15 @@ import App9 from "./components/App9";
 import App10 from "./components/App10";
 import App11 from "./components/App11";
 import App12 from "./components/App12";
+import App13 from "./components/App13";
+import App14 from "./components/App14";
+import App15 from "./components/App15";
+import App16 from "./components/App16";
+import App17 from "./components/App17";
+import App18 from "./components/App18";
+import App19 from "./components/App19";
+import App20 from "./components/App20";
+import App21 from "./components/App21";
 function App() {
   return (
     <BrowserRouter>
@@ -29,6 +38,15 @@ function App() {
           <Link to="app10" className="box">App10</Link>
           <Link to="app11" className="box">App11</Link>
           <Link to="app12" className="box">App12</Link>
+          <Link to="app13" className="box">App13</Link>
+          <Link to="app14" className="box">App14</Link>
+          <Link to="app15" className="box">App15</Link>
+          <Link to="app16" className="box">App16</Link>
+          <Link to="app17" className="box">App17</Link>
+          <Link to="app18" className="box">App18</Link>
+          <Link to="app19" className="box">App19</Link>
+          <Link to="app20" className="box">App20</Link>
+          <Link to="app21" className="box">App21</Link>
         </div>
         <hr></hr>
         <div>
@@ -46,6 +64,15 @@ function App() {
             <Route path="app10" element={<App10 />} />
             <Route path="app11" element={<App11 />} />
             <Route path="app12" element={<App12 />} />
+            <Route path="app13" element={<App13 />} />
+            <Route path="app14" element={<App14 />} />
+            <Route path="app15" element={<App15 />} />
+            <Route path="app16" element={<App16 />} />
+            <Route path="app17" element={<App17 />} />
+            <Route path="app18" element={<App18 />} />
+            <Route path="app19" element={<App19 />} />
+            <Route path="app20" element={<App20 />} />
+            <Route path="app21" element={<App21 />} />
           </Routes>
         </div>
       </div>
